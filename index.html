@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SkillCraft Technology</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">SkillCraft</div>
+    <nav>
+      <ul class="nav-menu">
+        <li><a href="#" onclick="showSection('home')">Home</a></li>
+        <li><a href="#" onclick="showSection('about')">About</a></li>
+        <li><a href="#" onclick="showSection('services')">Services</a></li>
+        <li><a href="#" onclick="showSection('contact')">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="section home">
+    <h1>Welcome to SkillCraft Technology</h1>
+    <p>Your journey to professional design begins here</p>
+    <button onclick="showAllSections()">Get Started</button>
+  </section>
+
+  <section id="about" class="section about">
+    <h2>About Us</h2>
+    <p>We are dedicated to delivering the most elegant and modern web solutions for your business growth. Our team focuses on user experience, responsiveness, and cutting-edge design.</p>
+  </section>
+
+  <section id="services" class="section services">
+    <h2>Our Services</h2>
+    <div class="service-boxes">
+      <div class="box">
+        <h3>Web Design</h3>
+        <p>Clean, elegant and modern web designs tailored for your brand</p>
+      </div>
+      <div class="box">
+        <h3>Responsive Development</h3>
+        <p>Optimized for all devices to give your users a seamless experience</p>
+      </div>
+      <div class="box">
+        <h3>UI/UX Consulting</h3>
+        <p>Improving your app's usability and customer experience journey</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact">
+    <h2>Contact</h2>
+    <p>Let's work together to build something great!</p>
+    <div class="email-box">📧 skillcraft@email.com</div>
+    <div class="footer">© 2025 SkillCraft Technology. All Rights Reserved.</div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
