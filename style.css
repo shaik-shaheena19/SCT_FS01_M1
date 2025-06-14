@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background-color: black;
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+
+.logo {
+  color: cyan;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-menu li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
+.nav-menu li a:hover {
+  background-color: cyan;
+  color: black;
+}
+
+.section {
+  min-height: 100vh;
+  padding: 100px 20px 60px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.home {
+  background-color: #002b5c;
+  color: white;
+}
+
+.home h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.home p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.home button {
+  padding: 12px 24px;
+  font-size: 18px;
+  background-color: cyan;
+  color: black;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.about {
+  background-color: white;
+  color: black;
+}
+
+.services {
+  background-color: white;
+  color: black;
+}
+
+.services h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.service-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.box {
+  background-color: cyan;
+  color: black;
+  padding: 20px;
+  width: 280px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.box h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.box p {
+  font-size: 16px;
+}
+
+.contact {
+  background-color: #002b5c;
+  color: white;
+}
+
+.contact h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.email-box {
+  background-color: cyan;
+  color: black;
+  padding: 12px 24px;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.footer {
+  margin-top: 40px;
+  font-size: 14px;
+  color: #aaa;
+}
